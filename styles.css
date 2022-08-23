@@ -1,0 +1,377 @@
+ @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap"); 
+
+ h1 {
+  font-family: "Proza Libre", sans-serif;
+  margin: 0;
+  margin-bottom: var(--spacing-2);
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  color: var(--font-color);
+}
+
+ :root {
+  --spacing-1: 8px;
+  --spacing-2: 12px;
+  --spacing-3: 16px;
+  --spacing-4: 24px;
+
+  --border-radius: 12px;
+
+  --font-color: #323232;
+}
+
+
+
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0 var(--spacing-3);
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0em 5em 0em 5em;
+  background: rgb(58 58 58 / 80%);
+  /* background: radial-gradient(#36363600, #8989892e); */
+}
+
+.navigation-items {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
+  
+}
+
+a{
+  color: #A95815 !important; 
+}
+
+a:hover{
+    filter: drop-shadow(2px 4px 6px #A95815 );
+    transition-duration: 0.3s;
+}
+
+.navigation-item {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.portrait {
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    margin-top: -25px;
+    border-radius: 50px;
+}
+
+.portrait:hover{
+    filter: drop-shadow(2px 4px 6px black);
+    transition-duration: 0.3s;
+}
+
+.about-us-text-container {
+  /* margin-right: var(--spacing-3); */
+  text-align-last: center;
+}
+
+.project-image {
+  width: 50%;
+}
+
+.project-title h3 {
+  display: inline;
+}
+
+details {
+  cursor: pointer;
+}
+
+summary {
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+
+footer {
+  margin-top: auto;
+  padding: var(--spacing-2) 0;
+  text-align: center;
+}
+
+section {
+  padding: var(--spacing-3) 0;
+}
+
+.icon {
+  font-size: 2em;
+  color: var(--font-color);
+  margin: 0 var(--spacing-1);
+}
+
+a {
+  color: var(--font-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+/* Footer */
+
+html{
+  background-image: url('images/imageedit_2_7589921367.png');
+}
+
+
+#footer-logo{
+  width: 200px;
+  height: 180px;
+  position: inherit;
+  margin-top: 0px;
+}
+
+#footer-logo:hover{
+  filter: drop-shadow(2px 4px 6px #A95815 );
+  transition-duration: 0.3s;
+}
+
+body > main > footer > div.content > div.right.box > form > div > a > i{
+  font-size: 15px;
+}
+
+body > main > footer > div.content > div.right.box{
+  margin-left: 57em;
+  margin-top: -5em;
+}
+body > main > footer > div.content > div.right.box > div{
+  margin-top: 5px;
+  margin-bottom: -20px;
+}
+
+footer{
+  width: 180%;
+  margin: 0em 0em 0em -22em;
+  position: inherit;
+  bottom: 0;
+  left: 0;
+  background: rgb(58, 58, 58);
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: #fff;
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 80px;
+  letter-spacing: 5px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: #eb2f06;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  #eb2f06;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: #eb2f06;
+}
+footer .bottom{
+  width: 100%;
+  text-align: right;
+  color: #d9d9d9;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color: #eb2f06;
+}
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: #eb2f06;
+}
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+}
+
+/* Footer End */
+
+/* Desktop */
+@media (min-width: 769px){
+
+  html{
+    overflow-x: hidden;
+  }
+/*index.html*/
+.topnav{
+    width: 180%;
+    margin: 0em 0em 0em -22em;
+}
+
+.about-us-container {
+  display: flex;
+  border: 2px solid black;
+    width: 130%;
+    margin: 7em 0em 10em -10em;
+    padding: 3em 3em 3em 3em;
+    text-align: center;
+    /* box-shadow: 10px 15px; */
+    place-content: center;
+}
+
+
+
+
+/*end of index.html*/
+
+/* programs.html */
+figure {
+    display: flex;
+  }
+
+  figcaption {
+    padding: 35px 70px 35px 70px;
+    border: 2px solid black;
+  }
+
+  .image-left {
+    flex-direction: row-reverse;
+    margin-bottom: 5em;
+  }
+
+  .image-right {
+    /* This is set to flex-direction: row; by default so doesn't need to be added */
+  }
+
+  .image-left:hover, .image-right:hover{
+    box-shadow: 10px 15px;
+    transition-duration: 0.3s;
+  }
+/* end of programs.html */
+
+/* Start of contact.html */
+
+#contact{
+  margin: 5em 0em 5em 0em;
+}
+/* End of contact.html */
+
+
+
+#myLinks{
+  display: contents;
+}
+
+.icon{
+  display: none;
+}
+
+/*End of navigation CSS*/
+/* end Desktop */
+
+}
+
+
+@media (max-width: 769px){
+  *{
+    display: none;
+  }
+}
