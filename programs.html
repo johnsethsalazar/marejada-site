@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
+  @media (min-width: 768px){
     .about-us-container {
         display: flex;
         border: none;
@@ -19,6 +20,31 @@
         box-shadow: none;
         place-content: center;
     }
+    #about-us{
+    margin-top: 2em;
+    border: none;
+    padding: none;
+    margin-bottom: none;
+    background: none;
+    color: black;
+    border-radius: none;
+    box-shadow: none;
+  }
+  }
+
+  @media (max-width: 768px){
+    #about-us{
+    margin-top: 2em;
+    border: none;
+    padding: none;
+    margin-bottom: none;
+    background: none;
+    color: black;
+    border-radius: none;
+    box-shadow: none;
+  }
+  }
+    
 
 </style>
 <script src="https://kit.fontawesome.com/15a5622411.js" crossorigin="anonymous"></script>
@@ -64,7 +90,7 @@
             <h1 style="margin-bottom: 2em;">Programs</h1>
 
                 <figure class="image-left">
-                    <img src="images/img1_300x200.jpg" alt="photo-1" />
+                    <img src="images/img1_300x200.jpg" alt="photo-1" class="large-img"/>
                     <figcaption>
                         <h2>Hand-to-hand Combat</h2>
                         <p>orem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -73,7 +99,7 @@
                 </figure>
                 
                 <figure class="image-right">
-                    <img src="images/img4_300x200.jpg" alt="photo-2" />
+                    <img src="images/img4_300x200.jpg" alt="photo-2" class="large-img"/>
                     <figcaption>
                         <h2>Weaponized Combat</h2>
                         <p>orem ipsum dolor sit amet, consectetur adipiscing elit</p>
